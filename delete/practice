@@ -1,0 +1,91 @@
+// Lee
+
+// <div id="number1"></div>
+// <input id="number1" type="number">
+
+// document.getElementById("number1").innerHTML = "What's your first number?";
+// document.getElementById("test2").value = "hello2";
+
+
+
+var operator = ['+', '-', '*', '/']; 
+
+var firstNumber = ();
+var secondNumber = ();
+
+var firstNumberQ = prompt("What is your first number?");
+var confirm1 = alert("Your first number is " + firstNumberQ);
+
+var firstNumber = prompt("What is your first number?");
+
+var confirm1 = alert("Your first number is " + confirm1);
+var firstnumber = firstNumberResponse;
+var secondNumber = prompt("What is your second number?");
+var secondNumber = secondNumberResponse;
+
+function sumOfCalc ( ) {
+  var firstNumber = prompt("What is your first number?");
+  if(typeof(firstNumber) != "number") {
+    alert(firstNumber);
+    return false;  } 
+    else {
+  }  
+  if/else for operator?
+  alert(firstNumberResponse + secondNumberResponse); // always at end
+};
+
+
+
+
+
+
+
+
+
+var add = function(number) {
+  var val = number + number;
+  console.log(val);
+};
+
+add(2);
+
+
+function add(firstNumber, secondNumber) {
+var firstNumber = prompt("What is your first number?");
+
+var firstNumberResponse
+  // console.log(firstnumber);
+  parseInt(firstNumber[0]);
+
+  $.get("main.handlebars",function (response){
+  var $firstNumberResponse = $('#firstNumberResponse');
+  $("#firstNumberResponse").handlebars(response);
+  }); 
+
+
+var secondNumber = prompt("What is your second number?");
+  parseInt(secondNumber[0]); 
+  console.log(secondNumber);
+
+var result;
+  return firstNumber+secondNumber;
+  alert("Result: ");
+}
+
+add();
+
+function subtract(firstNumber, secondNumber) {
+var firstNumber, secondNumber;
+  parseInt(firstNumber[0]);
+  parseInt(secondNumber[0]); 
+var result;
+  return firstNumber-secondNumber;
+  alert("Result: ");
+}
+
+subtract();
+
+
+
+
+

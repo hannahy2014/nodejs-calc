@@ -1,0 +1,83 @@
+<script>
+  var plusTotal = "plus1" + "plus2"
+
+</script>
+<form name="Calc">
+
+<table>
+<!-- plus -->
+    <td class="plus1">
+      <input type="number" size="8" value="">
+    </td>
+    <td> 
+      <h3> + </h3>
+    </td> 
+    <td class="plus2"> 
+      <input type="number" size="8" value="">
+    </td> 
+    <td> 
+      <input type="button" name="equals"value="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+      <input type="number" size="8" value=" ">
+
+  
+    </td>   
+  </td>
+</table>  
+
+<!-- subtract -->
+<table>
+    <td>
+      <input type="number" size="8" value="">
+    </td>
+    <td> 
+      <h3> - </h3>
+    </td> 
+    <td> 
+      <input type="number" size="8" value="">
+    </td> 
+    <td> 
+      <input type="button" name="equals"value="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+      <input type="number" size="8" value=" ">
+    </td>   
+  </td>
+  </table>
+
+<!-- multiply -->
+  <table>
+    <td>
+      <input type="number" size="8" value="">
+    </td>
+    <td> 
+      <h3> x </h3>
+    </td> 
+    <td> 
+      <input type="number" size="8" value="">
+    </td> 
+    <td> 
+      <input type="button" name="equals"value="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+      <input type="number" size="8" value=" ">
+    </td>   
+  </td>
+  </table>
+
+<!-- divide -->
+  <table>
+    <td>
+      <input type="number" size="8" value="">
+    </td>
+    <td> 
+      <h3> / </h3>
+    </td> 
+    <td> 
+      <input type="number" size="8" value="">
+    </td> 
+    <td> 
+      <input type="button" name="equals"value="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+      <input type="number" size="8" value=" ">
+    </td>   
+  </td>
+  </table>
+
+</table>
+
+</form>

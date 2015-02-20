@@ -1,0 +1,99 @@
+
+
+{{!-- ************buttons**************** --}}
+<div>
+<input type="text" id="text" name="numberEntry" class="numberEntry"/>
+</div>
+<br>
+
+<table class="body_colour">
+  <tr>
+    <td>
+      <button class="buttons">1</button>
+      <button class="buttons">2</button>
+      <button class="buttons">3</button>
+    </td>  
+  </tr>
+  <tr>
+    <td>
+      <button class="buttons">4</button>
+      <button class="buttons">5</button>
+      <button class="buttons">6</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button class="buttons">7</button>
+      <button class="buttons">8</button>
+      <button class="buttons">9</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button id="zeroButton">0</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button class="buttons_operators">+</button>
+      <button class="buttons_operators">-</button>
+      <button class="buttons_operators">*</button>
+      <button class="buttons_operators">/</button>
+    </td>
+  </tr>
+</table>
+<br>       
+
+{{!--**************** add *********************--}}
+
+      <input type="text" id="number1A">
+      <p>+</p>
+      <input type="text" id="number2A">
+     
+      <input class="calc_button" type="button" value="calc" onClick="add();">
+    
+      <br>
+      <br>
+      <p>=</p>
+      <div id="resultA"></div>
+    <br>
+    <br>
+
+{{!--**************** subtract *********************--}} 
+    <input type="text" id="number1S">
+    <p>-</p>
+    <input type="text" id="number2S">
+  
+    <input class="calc_button" type="button" value="calc" onClick="subtract();">
+
+    <br>
+    <br>
+    <p>=</p>
+    <div id="resultS"></div>
+
+{{!--**************** multiply *********************--}}
+    <br>
+    <br>
+    <input type="text" id="number1M">
+    <p>*</p>
+    <input type="text" id="number2M">
+    <input class="calc_button" type="button" value="calc" onClick="multiply();">
+    <br>
+    <br>
+    <p>=</p>
+    <div id="resultM"></div>
+
+{{!--**************** divide *********************--}}  
+    <br>
+    <br>
+    <input type="text" id="number1D">
+    <p>/</p>
+    <input type="text" id="number2D">
+  
+    <input class="calc_button" type="button" value="calc" onClick="divide();">
+
+    <br>
+    <br>
+    <p>=</p>
+    <div id="resultD"></div>
+  

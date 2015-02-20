@@ -1,0 +1,16 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "My first node/express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "@",
+    "start": "node server.js"
+  },
+  "author": "Hannah Mills",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.1",
+    "express-handlebars": "^1.1.0"
+  }
+}

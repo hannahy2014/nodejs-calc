@@ -1,0 +1,54 @@
+#header {
+  font-family: digitaldream;  
+}
+
+.numberEntry {
+  width: 300px;
+  height: 50px;
+  font-family: digitaldream;
+  font-size: 30px;
+}
+
+#zeroButton {
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #E6D784;
+}
+
+#zeroButton:hover {
+  background-color: #007777;
+}
+
+.buttonColours {
+  background-color: #58B0B0;
+}
+
+.buttons {
+  background-color: #E6D784;
+}
+
+.buttons_operators  {
+  background-color: #FF7373;
+}
+
+.buttons:hover  {
+  background-color: #007777;
+}
+
+.buttons_operators:hover {
+  background-color: #007777;
+}
+
+.body_colour {
+  background-color: #E1DBE7;
+}
+
+.calc_button:hover {
+  background-color: #007777;
+}
+
+.calc_button {
+  background-color: #FF7373;
+}
+
+

@@ -1,0 +1,15 @@
+html
+
+<input type="text" id="value1">
+<input>
+<input type="button">
+
+<div id="result">
+
+
+javascript
+
+var value1 = document.getElementById("value1").value
+var value2 = 
+
+document.getElementById("result").innerHTML = value1+value2
