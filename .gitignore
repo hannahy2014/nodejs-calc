@@ -1,6 +1,0 @@
-# temp directories
-delete
-
-# Node.js
-npm-debug.log
-node_modules

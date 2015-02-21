@@ -1,4 +1,9 @@
-# personal_projects
-Repository for personal work projects
+# Node.js Calculator
 
-This repository is for projects in node.js and Ruby on Rails.
+Add description
+
+## How to run
+
+```npm install```
+
+```npm start```
